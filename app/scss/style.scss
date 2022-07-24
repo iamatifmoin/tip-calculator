@@ -56,12 +56,17 @@ body {
     width: 1.6rem;
     height: 1.6rem;
     border-radius: 50%;
+    transition: .3s;
 
+    &:hover {
+        transform: scale(1.25);
+    }
 }
 
 .splitButton {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .controls {
